@@ -59,7 +59,7 @@ const Contact = () => {
         <div className="grid lg:grid-cols-2 gap-12">
           <motion.div initial={{ opacity: 0, x: -30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }}>
             <h2 className="font-outfit font-bold text-2xl text-foreground mb-6">Send Us a Message</h2>
-            <form onSubmit={handleSubmit} className="space-y-4">
+            <form className="space-y-4" name="contact" method="POST" data-netlify="true">
               {['name', 'email', 'phone', 'company'].map((field) => (
                 <div key={field}>
                   <input name={field} type={field === 'email' ? 'email' : 'text'} placeholder={field.charAt(0).toUpperCase() + field.slice(1) + (field === 'company' ? ' (Optional)' : ' *')} value={(formData as any)[field]} onChange={handleChange} className="w-full px-4 py-3 rounded-xl bg-card border border-border text-foreground focus:ring-2 focus:ring-primary focus:border-transparent" />
