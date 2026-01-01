@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button';
 import { Section, SectionHeader } from '@/components/ui/Section';
 import { StatCard, FeatureCard, ProjectCard, TestimonialCard } from '@/components/ui/Cards';
 import { STATS, BENEFITS, PROJECTS, PRODUCT_INFO } from '@/config/constants';
-import heroBg from '@/assets/hero-bg.jpg';
+import heroBg from '@/assets/hero.jpeg';
 
 const iconMap: Record<string, any> = {
   TrendingDown,
@@ -57,7 +57,7 @@ const Home = () => {
 
               <h1 className="font-outfit font-bold text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-background leading-tight mb-6">
                 Reduce AC Costs by{' '}
-                <span className="text-accent">{PRODUCT_INFO.costReduction}%</span>{' '}
+                <span className="text-accent">{PRODUCT_INFO.costReduction}</span>{' '}
                 with HTS Panels
               </h1>
 
@@ -118,7 +118,7 @@ const Home = () => {
                     </div>
                     <div className="font-semibold text-foreground">Cost Reduction</div>
                   </div>
-                  <div className="text-4xl font-bold text-primary">60%</div>
+                  <div className="text-4xl font-bold text-primary">25%-40%</div>
                   <div className="text-sm text-muted-foreground">Lower AC electricity bills</div>
                 </motion.div>
 
@@ -209,7 +209,7 @@ const Home = () => {
       </Section>
 
       {/* How It Works Section */}
-      <Section background="gradient">
+      {/* <Section background="gradient">
         <SectionHeader
           badge="Technology"
           title="How HTS Panels Work"
@@ -233,7 +233,7 @@ const Home = () => {
             {
               step: '03',
               title: 'Energy Savings',
-              description: 'Your inverter AC works at optimal efficiency, consuming up to 60% less electricity while maintaining comfort.',
+              description: 'Your inverter AC works at optimal efficiency, consuming up to 25%-40% less electricity while maintaining comfort.',
               icon: Droplets,
             },
           ].map((item, index) => (
@@ -262,7 +262,7 @@ const Home = () => {
             </motion.div>
           ))}
         </div>
-      </Section>
+      </Section> */}
 
       {/* Projects Preview */}
       <Section background="muted">

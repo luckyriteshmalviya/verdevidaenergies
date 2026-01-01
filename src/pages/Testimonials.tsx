@@ -16,6 +16,9 @@ const Testimonials = () => (
         <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} className="max-w-3xl mx-auto text-center">
           <span className="inline-block px-4 py-1.5 rounded-full bg-primary/10 text-primary text-sm font-medium mb-6">Testimonials</span>
           <h1 className="font-outfit font-bold text-4xl md:text-5xl text-foreground mb-6">What Our Clients Say</h1>
+        <p className="text-muted-foreground text-lg md:text-xl leading-relaxed">
+              Our company is an associate company of *M/s Perfact Infra Ltd * all the testimonials are of Perfect Infra
+            </p>
         </motion.div>
       </div>
     </section>

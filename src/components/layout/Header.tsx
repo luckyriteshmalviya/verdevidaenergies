@@ -5,6 +5,8 @@ import { Menu, X, Leaf } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { NAV_LINKS } from '@/config/constants';
 import { cn } from '@/lib/utils';
+import logo from '@/assets/logo.png';
+import mainLogo from '@/assets/main-logo.png';
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -35,21 +37,24 @@ const Header = () => {
       <nav className="container-custom">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-2 group">
+          <Link to="/" className="flex items-center group">
             <motion.div
               whileHover={{ rotate: 360 }}
               transition={{ duration: 0.6 }}
-              className="w-10 h-10 bg-gradient-to-br from-primary to-accent rounded-xl flex items-center justify-center shadow-glow"
+              className="w-16 h-14 from-primary to-accent rounded-xl flex items-center justify-center shadow-glow"
             >
-              <Leaf className="w-6 h-6 text-primary-foreground" />
+              {/* <Leaf className="w-6 h-6 text-primary-foreground" /> */}
+              <img src={mainLogo} alt="VerdeVida Energies" className="object-contain" />
+
             </motion.div>
             <div className="flex flex-col">
-              <span className="font-outfit font-bold text-xl text-foreground tracking-tight">
-                VERDEVIDA
+              {/* <span className="font-outfit font-bold text-xl text-foreground tracking-tight">
+                VERDEVIDAsd
               </span>
               <span className="text-[10px] text-muted-foreground font-medium tracking-widest uppercase">
                 Energies
-              </span>
+              </span> */}
+              <img src={logo} alt="VerdeVida Energies" className="h-14 object-contain" />
             </div>
           </Link>
 

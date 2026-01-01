@@ -33,7 +33,7 @@ export const COMPANY_INFO = {
 export const PRODUCT_INFO = {
   name: 'HTS Panel',
   fullName: 'Hybrid Thermal Solar Panel',
-  costReduction: 60,
+  costReduction: '25% - 40%',
   roiYears: 3,
   warrantyYears: 5,
   lifespanYears: 15,
@@ -97,7 +97,7 @@ export const PROJECTS = [
 
 // Stats for display
 export const STATS = [
-  { value: '60%', label: 'Cost Reduction', description: 'In AC electricity bills' },
+  { value: '25%-40%', label: 'Cost Reduction', description: 'In AC electricity bills' },
   { value: '3 Years', label: 'ROI Period', description: 'Quick return on investment' },
   { value: '15+ Years', label: 'Lifespan', description: 'Long-lasting performance' },
   { value: '150 MMT', label: 'CO₂ Reduction', description: 'Potential annual impact' },
@@ -107,7 +107,7 @@ export const STATS = [
 export const BENEFITS = [
   {
     title: 'Massive Cost Savings',
-    description: 'Reduce your AC electricity consumption by up to 60%, leading to significant monthly savings.',
+    description: 'Reduce your AC electricity consumption by up to 25%-40%, leading to significant monthly savings.',
     icon: 'TrendingDown',
   },
   {

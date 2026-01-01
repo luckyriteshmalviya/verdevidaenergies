@@ -7,7 +7,7 @@ import { PRODUCT_INFO } from '@/config/constants';
 
 const Products = () => {
   const features = [
-    { feature: 'Electricity Cost Reduction', hts: 'Up to 60%', conventional: '20-30%' },
+    { feature: 'Electricity Cost Reduction', hts: 'Up to 25%-40%', conventional: '20-30%' },
     { feature: 'Works with Inverter ACs', hts: true, conventional: false },
     { feature: 'Daytime Performance', hts: 'Optimized', conventional: 'Standard' },
     { feature: 'Heat Management', hts: 'Active thermal regulation', conventional: 'Passive only' },
@@ -23,7 +23,7 @@ const Products = () => {
     { label: 'Compatibility', value: 'All Inverter AC Units' },
     { label: 'Installation Location', value: 'Near outdoor AC unit (terrace)' },
     { label: 'Optimal Usage', value: 'Daytime AC operation' },
-    { label: 'Energy Savings', value: 'Up to 60%' },
+    { label: 'Energy Savings', value: 'Up to 25%-40%' },
     { label: 'Manufacturing Warranty', value: '5 Years' },
     { label: 'Expected Lifespan', value: '15+ Years' },
     { label: 'ROI Period', value: '3 Years average' },
@@ -37,7 +37,7 @@ const Products = () => {
   ];
 
   const benefits = [
-    { percentage: 60, label: 'Cost Savings', description: 'Reduction in AC electricity consumption' },
+    { percentage: '25-40', label: 'Cost Savings', description: 'Reduction in AC electricity consumption' },
     { percentage: 100, label: 'Eco-Friendly', description: 'Zero emissions during operation' },
     { percentage: 15, label: 'Lifespan Years', description: 'Durable, long-lasting performance' },
   ];
@@ -124,7 +124,7 @@ const Products = () => {
                   transition={{ duration: 3, repeat: Infinity }}
                   className="absolute top-4 right-4 px-4 py-2 rounded-full bg-primary text-primary-foreground text-sm font-medium"
                 >
-                  60% Savings
+                  25%-40% Savings
                 </motion.div>
                 <motion.div
                   animate={{ y: [0, 10, 0] }}
@@ -140,7 +140,7 @@ const Products = () => {
       </section>
 
       {/* How It Works */}
-      <Section background="muted">
+      {/* <Section background="muted">
         <SectionHeader
           badge="Technology"
           title="How HTS Panels Work"
@@ -165,7 +165,7 @@ const Products = () => {
               step: 3,
               icon: Zap,
               title: 'Energy Optimization',
-              description: 'Your inverter AC operates at peak efficiency, consuming up to 60% less electricity while maintaining optimal cooling performance.',
+              description: 'Your inverter AC operates at peak efficiency, consuming up to 25%-40% less electricity while maintaining optimal cooling performance.',
             },
           ].map((item, index) => (
             <motion.div
@@ -193,7 +193,7 @@ const Products = () => {
             </motion.div>
           ))}
         </div>
-      </Section>
+      </Section> */}
 
       {/* Comparison Table */}
       <Section background="default">
@@ -348,7 +348,7 @@ const Products = () => {
             className="text-center max-w-3xl mx-auto"
           >
             <h2 className="font-outfit font-bold text-3xl md:text-4xl text-primary-foreground mb-6">
-              Ready to Cut Your AC Costs by 60%?
+              Ready to Cut Your AC Costs by 25%-40%?
             </h2>
             <p className="text-primary-foreground/80 text-lg mb-8">
               Get a personalized quote and see how much you can save with HTS panels.
