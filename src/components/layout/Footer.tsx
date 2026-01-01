@@ -115,7 +115,7 @@ const Footer = () => {
             <p className="text-muted-foreground text-sm mb-4">
               Subscribe to our newsletter for the latest updates on sustainable energy solutions.
             </p>
-            <form className="space-y-3">
+            {/* <form className="space-y-3">
               <input
                 type="email"
                 placeholder="Enter your email"
@@ -127,7 +127,7 @@ const Footer = () => {
               >
                 Subscribe
               </button>
-            </form>
+            </form> */}
           </div>
         </div>
 
