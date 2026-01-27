@@ -6,7 +6,7 @@ const testimonials = [
   { quote: "The HTS panels reduced our electricity bills by 58%. The ROI was faster than promised.", author: "Rajesh Kumar", role: "Facilities Director", company: "L&T" },
   { quote: "A game-changer for our sustainability goals. Highly recommend VerdeVida.", author: "Priya Sharma", role: "Operations Head", company: "Adani Group" },
   { quote: "Professional installation and exceptional after-sales support.", author: "Amit Patel", role: "Plant Manager", company: "Siemens" },
-  { quote: "Our hospital's cooling costs dropped significantly without compromising patient comfort.", author: "Dr. Sunita Rao", role: "Administrator", company: "AIIMS" },
+  { quote: "Our hospital's cooling cost dropped significantly without compromising patient comfort.", author: "Dr. Sunita Rao", role: "Administrator", company: "AIIMS" },
 ];
 
 const Testimonials = () => (
