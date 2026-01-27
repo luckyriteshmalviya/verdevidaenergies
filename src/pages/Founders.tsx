@@ -67,11 +67,7 @@ const Founders = () => (
               With over 35 years of experience in construction and project
               management, I have led the planning and delivery of large scale
               commercial, residential, hospitality, and institutional projects
-              across India. My work spans landmark developments such as Hotel
-              Hyatt Raipur, Hotel Radisson Pune, Ishanya Mall in Pune, Platinum
-              Park, and major government office complexes, all delivered with a
-              strong focus on quality, timelines, and cost efficiency. Holding
-              qualifications in Civil Engineering and International Business
+              across India. Holding qualifications in Civil Engineering and International Business
               Management, my expertise covers project execution, resource
               planning, contract management, value engineering, and quality
               assurance, ensuring consistent value for stakeholders. Today, my
