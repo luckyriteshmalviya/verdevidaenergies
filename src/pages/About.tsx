@@ -206,44 +206,6 @@ const About = () => {
         </div>
       </Section>
 
-      {/* Company Timeline */}
-      <Section background="muted">
-        <SectionHeader
-          badge="Our Journey"
-          title="Milestones Along the Way"
-          subtitle="From a vision to India's leading sustainable energy innovator."
-        />
-
-        <div className="max-w-3xl mx-auto">
-          {timeline.map((item, index) => (
-            <motion.div
-              key={item.year}
-              initial={{ opacity: 0, x: index % 2 === 0 ? -30 : 30 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="relative flex gap-6 pb-8 last:pb-0"
-            >
-              {/* Timeline line */}
-              {index !== timeline.length - 1 && (
-                <div className="absolute left-[27px] top-14 w-0.5 h-full bg-border" />
-              )}
-              
-              {/* Year badge */}
-              <div className="shrink-0 w-14 h-14 rounded-full bg-gradient-to-br from-primary to-accent flex items-center justify-center text-primary-foreground font-bold text-sm">
-                {item.year.slice(2)}
-              </div>
-              
-              {/* Content */}
-              <div className="glass-card rounded-xl p-4 flex-grow">
-                <div className="font-outfit font-bold text-primary mb-1">{item.year}</div>
-                <p className="text-foreground">{item.event}</p>
-              </div>
-            </motion.div>
-          ))}
-        </div>
-      </Section>
-
       {/* Sustainability Commitment */}
       <Section background="default">
         <div className="glass-card rounded-3xl p-8 md:p-12 bg-gradient-to-br from-primary/5 to-accent/5">

@@ -173,7 +173,7 @@ const Home = () => {
       </section>
 
       {/* Stats Section */}
-      <Section background="muted">
+      <Section background="default">
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
           {STATS.map((stat, index) => (
             <StatCard
@@ -188,7 +188,7 @@ const Home = () => {
       </Section>
 
       {/* Benefits Section */}
-      <Section background="default">
+      <Section background="muted">
         <SectionHeader
           badge="Why Choose HTS?"
           title="Benefits That Make a Difference"
@@ -265,7 +265,7 @@ const Home = () => {
       </Section> */}
 
       {/* Projects Preview */}
-      <Section background="muted">
+      {/* <Section background="muted">
         <SectionHeader
           badge="Our Work"
           title="Proven Results Across Industries"
@@ -286,7 +286,7 @@ const Home = () => {
             </Button>
           </Link>
         </div>
-      </Section>
+      </Section> */}
 
       {/* Sustainability Impact */}
       <Section background="default">
